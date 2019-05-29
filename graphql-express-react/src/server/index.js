@@ -7,6 +7,7 @@ const { buildASTSchema } = require('graphql');
 const POSTS = [
   { author: "John Doe", body: "Hello world" },
   { author: "Jane Doe", body: "Hi, planet!" },
+  { author: "Testing", body: "testetesttest" }
 ];
 
 const schema = buildASTSchema(gql`
